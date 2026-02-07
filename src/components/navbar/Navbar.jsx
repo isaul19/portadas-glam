@@ -8,6 +8,15 @@ export const Navbar = () => {
         <li>
           <Link to="/">Inicio</Link>
         </li>
+
+        <li>
+          <Link to="/we">Nosotros</Link>
+        </li>
+
+        <li>
+          <Link to="/galery">Galeria</Link>
+        </li>
+
         <li>
           <Link to="/contact">Contacto</Link>
         </li>
