@@ -1,4 +1,112 @@
-.navbar ul {
+.navbar {
+  margin-top: 5rem;
+}
+
+.logo {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 100%;
+}
+
+.redes {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.icons_redes {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+@media (min-width: 768px) {
+  .redes {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.navegacion {
+  background-color: #309b47;
+  padding: 0.5rem 0;
+  margin: 2rem 0;
+}
+
+.navegacion_borde {
+  border-block: 2px dashed #fff;
+  padding: 1.7rem 0;
+}
+
+/* .navegacion_contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.nav_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.nav_link li:hover {
+  color: #236431;
+}
+
+.nav_link li:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .nav_link {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .nav_link li {
+    margin-bottom: 0;
+  }
+}
+
+.icons_whastapp {
+  color: #236431;
+  font-size: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.icons_whastapp:hover {
+  transform: scale(1.5);
+  color: #1f552b;
+}
+
+.icons_instagram {
+  color: #ff036c;
+  font-size: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.icons_instagram:hover {
+  transform: scale(1.5);
+  color: #cf0a5c;
+}
+
+.icons_tiktok {
+  color: #2b161f;
+  font-size: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.icons_tiktok:hover {
+  transform: scale(1.5);
+  color: #201118;
+}
+
+.icons_redes {
+  margin-top: 2rem;
 }

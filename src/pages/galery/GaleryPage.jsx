@@ -1,12 +1,12 @@
 import { Navbar } from "../../components/navbar/Navbar";
-import "./WePage.css";
+import "./GaleryPage.css";
 
-export const WePage = () => {
+export const GaleryPage = () => {
   return (
     <div>
       <Navbar />
 
-      <p>Bienvenido WePage</p>
+      <p>Bienvenido GaleryPage</p>
 
       <img width={100} height={300} src="/images/modelo2.jpg" alt="Modelo" />
     </div>
