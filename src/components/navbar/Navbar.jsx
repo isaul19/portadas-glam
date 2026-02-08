@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { FaTiktok } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 import "./Navbar.css";
 
 export const Navbar = () => {
@@ -17,6 +18,13 @@ export const Navbar = () => {
             to="https://api.whatsapp.com/send/?phone=51994873783&text=Hola+Portada+Glam%2C+me+encantar%C3%ADa+recibir+mayor+informaci%C3%B3n+para+que+mi+evento+sea+de+portada+de+revista.+%C2%A1Gracias%21&type=phone_number&app_absent=0"
           >
             <FaWhatsapp />
+          </Link>
+          <Link
+            className="icons_facebook"
+            target="__blank"
+            to="https://www.facebook.com/profile.php?id=61574976672485"
+          >
+            <FaFacebookF />
           </Link>
           <Link
             className="icons_instagram"

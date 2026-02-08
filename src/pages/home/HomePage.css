@@ -1,0 +1,14 @@
+.bienvenida_seccion {
+  margin-top: 5rem;
+}
+.bienvenida__heading {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  color: rgb(108, 199, 100);
+}
+
+.bienvenida__heading span {
+  display: block;
+  color: black;
+}

@@ -53,6 +53,7 @@
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
   text-align: center;
+  font-weight: 100;
 }
 
 .nav_link li:hover {
@@ -107,6 +108,16 @@
   color: #201118;
 }
 
+.icons_facebook {
+  color: #0866ff;
+  font-size: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.icons_facebook:hover {
+  transform: scale(1.5);
+  color: #125bd1;
+}
 .icons_redes {
   margin-top: 2rem;
 }
