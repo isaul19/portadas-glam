@@ -1,0 +1,144 @@
+
+.cabinas-section {
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #f9f9f9, #f1f1f1);
+  text-align: center;
+  margin-top: 5rem;
+}
+
+
+.cabinas-header h2 {
+  font-size: 42px;
+  font-family: "Lora", serif;
+  color: #1f3d36;
+  margin-bottom: 10px;
+}
+
+.cabinas-header p {
+  color: #777;
+  margin-bottom: 70px;
+  font-size: 18px;
+}
+
+
+.cabinas-grid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+@media (min-width: 768px) {
+  .cabinas-grid {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .cabinas-grid::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 70%;
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      #c9a46a,
+      #1f6b4a,
+      transparent
+    );
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+.cabina-card {
+  background: white;
+  width: 350px;
+  padding: 50px 40px;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+  position: relative;
+  transition: all 0.4s ease;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.cabina-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+.cabina-top-line {
+  height: 4px;
+  width: 80px;
+  background: linear-gradient(135deg, #c9a46a, #1f6b4a);
+  margin: 0 auto 25px;
+  border-radius: 20px;
+}
+
+
+.cabina-card h3 {
+  font-size: 28px;
+  font-family: "Lora", serif;
+  color: #1f3d36;
+  margin-bottom: 25px;
+}
+
+
+.cabina-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.cabina-card li {
+  margin-bottom: 12px;
+  color: #555;
+  font-family: "Roboto
+}
+
+.cabina-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #c9a46a, #1f6b4a);
+  border: none;
+  padding: 14px 32px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Elevación suave */
+.cabina-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Efecto brillo que pasa */
+.cabina-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: all 0.6s ease;
+}
+
+.cabina-btn:hover::before {
+  left: 100%;
+}
