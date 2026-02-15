@@ -46,7 +46,14 @@ export const Cabinas = () => {
             <li>Luz fría superior</li>
             <li>Flores a disposición</li>
           </ul>
-          <button className="cabina-btn">Solicitar información</button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=51994873783&text=Hola+Portada+Glam%2C+me+encantar%C3%ADa+recibir+mayor+informaci%C3%B3n+para+que+mi+evento+sea+de+portada+de+revista.+%C2%A1Gracias%21&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cabina-btn"
+          >
+            Solicitar información
+          </a>
         </div>
       </div>
     </section>
