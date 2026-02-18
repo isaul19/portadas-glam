@@ -1,13 +1,11 @@
 import { Navbar } from "../../components/navbar/Navbar";
-import { Carrusel } from "../../components/swiper/Swiper";
 import { HiOutlineCamera } from "react-icons/hi2";
 import { Cabinas } from "../../components/cabinas/Cabinas";
+import { Paquetes } from "../../components/paquetes/Paquetes";
+import { Footer } from "../../components/footer/Footer";
 import "./HomePage.css";
-import Swiper from "swiper";
 
 export const HomePage = () => {
-  console.log("Hola mundo");
-
   return (
     <div>
       <Navbar />
@@ -205,6 +203,10 @@ export const HomePage = () => {
           </div>
         </div>
       </section>
+
+      <Paquetes />
+
+      <Footer />
     </div>
   );
 };

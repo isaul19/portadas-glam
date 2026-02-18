@@ -8,12 +8,22 @@
 
 
 .cabinas-header h2 {
-  font-size: 42px;
-  font-family: "Lora", serif;
-  color: #1f3d36;
-  margin-bottom: 10px;
+   color: #1f6b4a;
+  font-size: 4rem;
+  position: relative;
+  margin-bottom: 2rem;
 }
 
+.cabinas-header h2::after {
+  content: "";
+  width: 12%;
+  height: 3px;
+  background: #c9a46a;
+  position: absolute;
+  bottom: -10px;
+  left: 45%;
+  border-radius: 2px;
+}
 .cabinas-header p {
   color: #777;
   margin-bottom: 70px;
