@@ -278,8 +278,8 @@
 }
 
 .glam-image img {
-  width: 70%;
-  max-width: 520px;
+  width: 40%;
+  max-width: 400px;
   border-radius: 30px;
   border: 16px solid white;
   box-shadow:
