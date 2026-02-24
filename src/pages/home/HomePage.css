@@ -116,6 +116,7 @@ body {
 .testimoniales {
   padding: 8rem 0;
   background: linear-gradient(180deg, #f8f6f2, #ffffff);
+  margin-top: 5rem;
 }
 
 /* Título */

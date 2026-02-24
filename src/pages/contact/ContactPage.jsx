@@ -1,4 +1,5 @@
 import { Navbar } from "../../components/navbar/Navbar";
+import { Footer } from "../../components/footer/Footer";
 import "./ContactPage.css";
 
 export const ContactPage = () => {
@@ -6,9 +7,10 @@ export const ContactPage = () => {
     <div>
       <Navbar />
 
-      <p>Bienvenido ContactPage</p>
-
-      <img width={300} height={100} src="/images/modelo3.jpg" alt="Modelo" />
+      <h2 className="testimoniales__heading">
+        <span className="heading-highlight">Contacto</span>
+      </h2>
+      <Footer />
     </div>
   );
 };

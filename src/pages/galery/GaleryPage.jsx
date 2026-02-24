@@ -1,4 +1,5 @@
 import { Navbar } from "../../components/navbar/Navbar";
+import { Footer } from "../../components/footer/Footer";
 import "./GaleryPage.css";
 
 export const GaleryPage = () => {
@@ -6,9 +7,12 @@ export const GaleryPage = () => {
     <div>
       <Navbar />
 
-      <p>Bienvenido GaleryPage</p>
-
-      <img width={100} height={300} src="/images/modelo2.jpg" alt="Modelo" />
+      <section className="Galeria">
+        <h2 className="testimoniales__heading">
+          <span className="heading-highlight">Nuestra Galeria</span>
+        </h2>
+      </section>
+      <Footer />
     </div>
   );
 };
