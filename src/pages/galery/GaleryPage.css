@@ -1,0 +1,88 @@
+/* ===============================
+   GALERÍA EDITORIAL GLAM
+================================= */
+
+.glam-gallery-section {
+  padding: 160px 8%;
+  background: linear-gradient(180deg, #ffffff 0%, #f4f0ea 100%);
+  margin-top: 5rem;
+}
+
+/* TÍTULO GENERAL */
+
+.glam-gallery-title {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.glam-gallery-title span {
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+  color: #c9a46a;
+  font-weight: 600;
+}
+
+.glam-gallery-title h2 {
+  font-size: 4rem;
+  margin-top: 20px;
+  color: #1f4d3b;
+}
+
+/* CATEGORÍA */
+
+.glam-category {
+  margin-bottom: 140px;
+}
+
+.glam-category-title {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #1f4d3b;
+  letter-spacing: 4px;
+  border-left: 6px solid #c9a46a;
+  padding-left: 20px;
+}
+
+/* GRID DE FOTOS */
+
+.glam-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.glam-grid img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.glam-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
+  .glam-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .glam-gallery-title h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .glam-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .glam-category-title {
+    font-size: 1.8rem;
+  }
+}

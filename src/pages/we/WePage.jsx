@@ -72,7 +72,7 @@ export const WePage = () => {
             </div>
 
             <div className="glam-image">
-              <img src="/images/nosotros2.png" alt="Portadas Glam 1" />
+              <img src="/images/boda2.png" alt="Portadas Glam 1" />
             </div>
           </div>
 

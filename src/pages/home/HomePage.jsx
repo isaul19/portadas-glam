@@ -86,6 +86,9 @@ export const HomePage = () => {
       </section>
 
       <Cabinas />
+
+      <Paquetes />
+
       <section class="contenedor testimoniales">
         <h2 class="testimoniales__heading">
           <span class="heading-highlight">Testimoniales</span>
@@ -203,8 +206,6 @@ export const HomePage = () => {
           </div>
         </div>
       </section>
-
-      <Paquetes />
 
       <Footer />
     </div>

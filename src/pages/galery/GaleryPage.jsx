@@ -7,10 +7,53 @@ export const GaleryPage = () => {
     <div>
       <Navbar />
 
-      <section className="Galeria">
-        <h2 className="testimoniales__heading">
-          <span className="heading-highlight">Nuestra Galeria</span>
-        </h2>
+      <section className="glam-gallery-section">
+        <div className="glam-gallery-title">
+          <span>GALERÍA</span>
+          <h2>Nuestros Eventos</h2>
+        </div>
+
+        {/* ===== BODAS ===== */}
+        <div className="glam-category">
+          <h3 className="glam-category-title">BODAS</h3>
+
+          <div className="glam-grid">
+            <img src="/images/nosotros3.JPG" alt="experiencia en boda" />
+            <img src="/images/boda2.png" alt="experiencia en boda" />
+            <img src="/images/boda3.png" alt="experiencia en boda" />
+            <img src="/images/boda4.png" alt="experiencia en boda" />
+            <img src="/images/boda5.jpg" alt="experiencia en boda" />
+            <img src="/images/boda6.jpg" alt="experiencia en boda" />
+          </div>
+        </div>
+
+        {/* ===== QUINCEAÑOS ===== */}
+        <div className="glam-category">
+          <h3 className="glam-category-title">QUINCEAÑOS</h3>
+
+          <div className="glam-grid">
+            <img src="/images/nosotros2.jpg" alt="experiencia en quince" />
+            <img src="/images/quince2.jpg" alt="experiencia en quince" />
+            <img src="/images/quince3.jpg" alt="experiencia en quince" />
+            <img src="/images/quince4.jpg" alt="experiencia en quince" />
+            <img src="/images/quince5.jpg" alt="experiencia en quince" />
+            <img src="/images/quince6.jpg" alt="experiencia en quince" />
+          </div>
+        </div>
+
+        {/* ===== CORPORATIVOS ===== */}
+        <div className="glam-category">
+          <h3 className="glam-category-title">EVENTOS CORPORATIVOS</h3>
+
+          <div className="glam-grid">
+            <img src="/images/nosotros1.JPG" alt="experiencia en coorp" />
+            <img src="/images/corp2.JPG" alt="experiencia en coorp" />
+            <img src="/images/corp3.png" alt="experiencia en coorp" />
+            <img src="/images/corp4.jpg" alt="experiencia en coorp" />
+            <img src="/images/corp5.jpg" alt="experiencia en coorp" />
+            <img src="/images/corp6.jpg" alt="experiencia en coorp" />
+          </div>
+        </div>
       </section>
       <Footer />
     </div>
