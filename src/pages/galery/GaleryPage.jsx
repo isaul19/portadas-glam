@@ -24,6 +24,9 @@ export const GaleryPage = () => {
             <img src="/images/boda4.png" alt="experiencia en boda" />
             <img src="/images/boda5.jpg" alt="experiencia en boda" />
             <img src="/images/boda6.jpg" alt="experiencia en boda" />
+            <img src="/images/boda7.JPG" alt="experiencia en boda" />
+            <img src="/images/boda8.JPG" alt="experiencia en boda" />
+            <img src="/images/boda9.jpg" alt="experiencia en boda" />
           </div>
         </div>
 
@@ -33,11 +36,11 @@ export const GaleryPage = () => {
 
           <div className="glam-grid">
             <img src="/images/nosotros2.jpg" alt="experiencia en quince" />
-            <img src="/images/quince2.jpg" alt="experiencia en quince" />
-            <img src="/images/quince3.jpg" alt="experiencia en quince" />
-            <img src="/images/quince4.jpg" alt="experiencia en quince" />
-            <img src="/images/quince5.jpg" alt="experiencia en quince" />
-            <img src="/images/quince6.jpg" alt="experiencia en quince" />
+            <img src="/images/quince2.png" alt="experiencia en quince" />
+            <img src="/images/quince3.png" alt="experiencia en quince" />
+            <img src="/images/quince4.JPG" alt="experiencia en quince" />
+            <img src="/images/quince5.png" alt="experiencia en quince" />
+            <img src="/images/quince6.png" alt="experiencia en quince" />
           </div>
         </div>
 
@@ -49,9 +52,12 @@ export const GaleryPage = () => {
             <img src="/images/nosotros1.JPG" alt="experiencia en coorp" />
             <img src="/images/corp2.JPG" alt="experiencia en coorp" />
             <img src="/images/corp3.png" alt="experiencia en coorp" />
-            <img src="/images/corp4.jpg" alt="experiencia en coorp" />
+            <img src="/images/corp4.png" alt="experiencia en coorp" />
             <img src="/images/corp5.jpg" alt="experiencia en coorp" />
-            <img src="/images/corp6.jpg" alt="experiencia en coorp" />
+            <img src="/images/corp6.JPG" alt="experiencia en coorp" />
+            <img src="/images/corp7.JPG" alt="experiencia en coorp" />
+            <img src="/images/corp8.png" alt="experiencia en coorp" />
+            <img src="/images/corp9.jpg" alt="experiencia en coorp" />
           </div>
         </div>
       </section>
